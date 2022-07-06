@@ -1,0 +1,130 @@
+body, html{
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+p{
+    color: #B3B3B3;
+}
+
+.donate-hero-image {
+    height: 75%;    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/donation8.jpg);    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    margin-bottom: 50px; 
+}
+
+.donate-hero-text {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 5%;
+    margin-left: 23%; */
+    transform: translate(50%, 50%);
+    color: white;        
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 15px 25px;
+    color: white;
+    background-color: #FF5959;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+
+.donate-amount{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    transform: translate(50%);
+}
+
+.donate-amount h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.amount-box {
+    width: 50%;
+    margin-top: 10px;
+    justify-content: space-between;
+    transform: translateX(50%);
+    margin: 0;
+}
+
+.amount-box div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-inline-start: 5%;    
+    box-sizing: border-box;    
+}
+
+.amount-box-text {
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    padding-top: 30px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    
+}
+
+.amount-box-text:nth-child(2) {
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: solid #FF5959;
+}
+
+.other-amount {
+    margin-top: 10px;
+    width: 50%;
+    transform: translateX(50%);
+    justify-content: center;
+    color: #B3B3B3;
+    text-align: center;
+}
+
+.other-amount h4 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.other-amount hr {
+    border: 1px solid #B3B3B3;
+}
+
+.other-amount button {
+    margin-top: 30px;
+}
+
+.donate-plan {
+    width: 50%;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    transform: translateX(50%);
+}
+
+.donate-plan h1 {    
+    margin-bottom: 0px;
+    font-size: 60px;
+}
+
+.donate-plan p {
+    text-align: center;
+    justify-content: center;
+}
