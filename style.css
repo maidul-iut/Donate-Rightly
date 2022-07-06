@@ -6,6 +6,7 @@ body, html{
 
 p{
     color: #B3B3B3;
+    font-size: 20px;
 }
 
 .donate-hero-image {
@@ -127,4 +128,50 @@ button {
 .donate-plan p {
     text-align: center;
     justify-content: center;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+
+.half-width{
+    width:30%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.donate-box-item {
+    margin: 20px 170px;
+}
+
+.donate-box {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.donate-box div {
+    padding: 30px 15px 0px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 10px; 
+}
+
+.donate-box img {
+    height: 15%;
+}
+
+.first-div {
+    background-color: #4F9DA610;
+}
+
+.second-div{
+    margin: 0 50px;
+    background-color: #FF595910;
+}
+
+.third-div{
+    background-color: #FFF4D6;
 }
